@@ -1,1 +1,157 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    list-style-type: none;
+    font-family: "Baloo Da 2", cursive;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+/* Front Page */
+
+.section1 {
+    width: 100%;
+    height: 65vh;
+    background-size: cover;
+    position: relative;
+    background: linear-gradient(to top, rgba(38, 38, 38, 0.7), rgba(38, 38, 38, 0.6)), url(images/bg.jpg) center no-repeat;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 0.1rem solid #bbb;
+}
+
+.span-logo {
+    margin: 0 1rem;
+}
+
+.logos {
+    font-size: 2rem;
+    font-family: "Ballo Da 2", cursive;
+    display: flex;
+    font-style: italic;
+    font-weight: 800;
+    color: white;
+    position: relative;
+    cursor: pointer;
+}
+
+.p_2 {
+    position: relative;
+    color: #bbb;
+    font-size: 2.8rem;
+}
+
+.p_1 {
+    position: absolute;
+    font-size: 2.5rem;
+    z-index: 2;
+}
+
+.nav-links-list {
+    font-size: 1.2rem;
+    font-weight: 400;
+    width: 35vw;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links-item {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    transition: border-bottom 0.1s;
+}
+
+.nav-links-item i {
+    margin-left: 3px;
+    transition: all 0.1s;
+}
+
+.nav-links-item:hover {
+    border-bottom: 0.2rem solid #fff;
+}
+
+.nav-links-item:hover i {
+    transform: rotateZ(180deg);
+}
+
+.nav-links {
+    color: white;
+}
+
+.buttons button {
+    height: 5vh;
+    width: 6vw;
+    border-radius: 3rem;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.login-button {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.SignUp-button {
+    background: #fff;
+    color: #262626;
+    border: 1px solid white;
+}
+
+.banner {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    top: 25%;
+}
+
+.banner-title {
+    font-size: 5rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.banner-p {
+    font-size: 1.5rem;
+    width: 50%;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+.blue-btn {
+    height: 4.5rem;
+    width: 31rem;
+    background-color: #036bb1;
+    border-radius: 3rem;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+/* End Of Front Page */
