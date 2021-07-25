@@ -1,4 +1,9 @@
+/* Front Page */
+
+/* Section 1 */
+
 /* Dropdown script */
+
 const dropdownItems = document.querySelectorAll('.dropdown-hover');
 
 dropdownItems.forEach(dropdownItem => {
@@ -16,3 +21,11 @@ dropdownItems.forEach(dropdownItem => {
 
 
 /* End of Dropdown script */
+
+/* End Of Section 1 */
+
+/* Section 2 */
+
+/* End Of Section 2 */
+
+/* End Of Front Page */

@@ -16,6 +16,9 @@ html {
 
 /* Front Page */
 
+
+/* Section 1 */
+
 .section1 {
     width: 100%;
     height: 70vh;
@@ -161,10 +164,11 @@ html {
     top: 25%;
 }
 
-.banner-title {
+.title {
     font-size: 5rem;
     color: #fff;
     margin-bottom: 1rem;
+    font-weight: 400;
 }
 
 .banner-p {
@@ -185,6 +189,73 @@ html {
     font-weight: 500;
     cursor: pointer;
 }
+
+
+/* Section 1 */
+
+
+/* Section 2 */
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 12vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10vh;
+}
+
+.card i {
+    color: #229fe7;
+    font-size: 5rem;
+    margin-bottom: 1.5rem;
+}
+
+.card-title {
+    color: black;
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+}
+
+.card-desc {
+    font-weight: 600;
+    text-align: center;
+    font-size: 2.2vh;
+    margin-bottom: 1.5rem;
+}
+
+.card-btn {
+    height: 7vh;
+    width: 13vw;
+    color: #036bb1;
+    border: 1px solid #036bb1;
+    background-color: transparent;
+    font-weight: 700;
+    border-radius: 25rem;
+    cursor: pointer;
+}
+
+.div-title .title {
+    color: #333;
+}
+
+
+/* End Of Section 2 */
 
 
 /* End Of Front Page */
