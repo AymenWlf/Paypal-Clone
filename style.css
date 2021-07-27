@@ -444,3 +444,126 @@ html {
 
 
 /* End Of Front Page */
+
+
+/* Log in Page */
+
+.sectionUnique {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.card {
+    height: 70vh;
+    width: 30vw;
+    border: 1px solid rgb(177, 177, 177);
+    padding: 5vh;
+}
+
+.span {
+    width: 22vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.P {
+    font-weight: bold;
+    font-style: italic;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.P2 {
+    font-size: 7vh;
+    color: #32a4f0;
+    position: absolute;
+    right: -0.9vh;
+    z-index: -1;
+}
+
+.P1 {
+    font-size: 6.5vh;
+    color: #064699;
+}
+
+.div-paypal {
+    cursor: pointer;
+}
+
+.Paypal {
+    font-size: 5vh;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.Pay {
+    color: #064699;
+    margin: 0;
+}
+
+.pal {
+    color: #32a4f0;
+    margin: 0;
+}
+
+.txt-input {
+    height: 7vh;
+    width: 23vw;
+    border-radius: 10px;
+    border: 1px solid #333;
+    padding: 1vh;
+    padding-left: 3vh;
+    color: black;
+    font-weight: 400;
+    font-size: 2.2vh;
+}
+
+.Log-in-btn {
+    height: 7vh;
+    width: 23vw;
+    background-color: #064699;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.trbl-link {
+    color: #229fe7;
+    font-size: 1.5rem;
+}
+
+.or {
+    color: rgb(148, 148, 148);
+    font-size: 1.5rem;
+    position: relative;
+}
+
+.or::before {
+    content: "";
+    height: 1px;
+    width: 1vw;
+    color: rgb(148, 148, 148);
+}
+
+.signUp-btn {
+    height: 7vh;
+    width: 23vw;
+    background-color: #dbe8ec;
+    font-weight: 600;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+
+
+/* End of Log in Page */
