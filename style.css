@@ -16,9 +16,7 @@ html {
 
 /* Front Page */
 
-.Front-Page {
-    display: none;
-}
+.Front-Page {}
 
 
 /* Section 1 */
@@ -448,6 +446,10 @@ html {
 
 /* Log in Page */
 
+.LogInPage {
+    display: none;
+}
+
 .sectionUnique {
     display: flex;
     align-items: center;
@@ -456,7 +458,7 @@ html {
     width: 100%;
 }
 
-.card {
+.sectionUnique .card {
     height: 70vh;
     width: 30vw;
     border: 1px solid rgb(177, 177, 177);
@@ -548,7 +550,7 @@ html {
 .or::before {
     content: "";
     height: 1px;
-    width: 1vw;
+    width: 5vw;
     color: rgb(148, 148, 148);
 }
 

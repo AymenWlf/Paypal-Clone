@@ -50,5 +50,20 @@ dropdownItems.forEach(dropdownItem => {
 
 
 /* Log in Page */
+const FrontPage = document.querySelector(".Front-Page");
+const LogInPage = document.querySelector(".LogInPage");
+const loginBtn = document.querySelector(".login-button");
+const Paypal = document.querySelector(".span");
+
+loginBtn.addEventListener('click', () => {
+    FrontPage.style.cssText = 'display:none;';
+    LogInPage.style.cssText = 'display:block';
+})
+
+Paypal.addEventListener('click', () => {
+    FrontPage.style.cssText = 'display:block;';
+    LogInPage.style.cssText = 'display:none';
+})
+
 
 /* End of Log in Page */
