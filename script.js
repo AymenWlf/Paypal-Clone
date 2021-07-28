@@ -52,18 +52,40 @@ dropdownItems.forEach(dropdownItem => {
 /* Log in Page */
 const FrontPage = document.querySelector(".Front-Page");
 const LogInPage = document.querySelector(".LogInPage");
-const loginBtn = document.querySelector(".login-button");
-const Paypal = document.querySelector(".span");
+const SignUpPage = document.querySelector(".SignUpPage")
+const loginBtn = document.querySelectorAll(".login-button");
+const Paypal = document.querySelectorAll(".logo");
+const SignUp = document.querySelectorAll(".toSignUp")
 
-loginBtn.addEventListener('click', () => {
-    FrontPage.style.cssText = 'display:none;';
-    LogInPage.style.cssText = 'display:block';
+loginBtn.forEach(log => {
+    log.addEventListener('click', () => {
+        FrontPage.style.cssText = 'display:none;';
+        LogInPage.style.cssText = 'display:block';
+        SignUpPage.style.cssText = 'display:none';
+    })
 })
 
-Paypal.addEventListener('click', () => {
-    FrontPage.style.cssText = 'display:block;';
-    LogInPage.style.cssText = 'display:none';
+Paypal.forEach(logo => {
+    logo.addEventListener('click', () => {
+        FrontPage.style.cssText = 'display:block;';
+        LogInPage.style.cssText = 'display:none';
+        SignUpPage.style.cssText = 'display:none';
+    })
+})
+
+
+SignUp.forEach(Sign => {
+    Sign.addEventListener('click', () => {
+        FrontPage.style.cssText = 'display:none;';
+        LogInPage.style.cssText = 'display:none';
+        SignUpPage.style.cssText = 'display:block';
+    })
 })
 
 
 /* End of Log in Page */
+
+/* SignUp Page */
+
+
+/* End of SignUp Page */
