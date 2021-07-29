@@ -86,7 +86,7 @@ html {
 }
 
 .nav-links-item i {
-    margin-left: 3px;
+    margin-left: 1rem;
     transition: all 0.3s;
 }
 
@@ -122,12 +122,12 @@ html {
 
 .dropdown-link-1 {
     color: #fff;
-    font-size: 17px;
+    font-size: 1.7rem;
 }
 
 .dropdown-link-2 {
     color: #fff;
-    font-size: 10px;
+    font-size: 1.1rem;
 }
 
 .dropdown-links {
@@ -237,7 +237,7 @@ html {
 .card-desc {
     font-weight: 600;
     text-align: center;
-    font-size: 2.2vh;
+    font-size: 1.5rem;
     margin-bottom: 1.5rem;
 }
 
@@ -288,11 +288,11 @@ html {
 }
 
 .p1 {
-    font-size: 4vh;
+    font-size: 3rem;
 }
 
 .p2 {
-    font-size: 2.4vh;
+    font-size: 1.5rem;
     word-spacing: 0.1px;
 }
 
@@ -329,7 +329,7 @@ html {
 .desc-num {
     display: flex;
     align-items: center;
-    font-size: 2.3vh;
+    font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 2rem;
 }
@@ -366,7 +366,7 @@ html {
 
 .section-5-title {
     color: black;
-    font-size: 5vh;
+    font-size: 3.5rem;
     font-weight: 400;
 }
 
@@ -417,7 +417,7 @@ html {
 .section-6 a {
     color: #333;
     font-weight: 500;
-    font-size: 2.5vh;
+    font-size: 1.6rem;
 }
 
 .left {
